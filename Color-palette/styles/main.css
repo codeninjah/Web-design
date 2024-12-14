@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+}
+
+.first-container {
+    background-color: #FFC99D;
+    height: 300px;
+}
+
+.second-container {
+    background-color: #FFC278;
+    height: 500px;
+    text-align: center;
+}
+
+.first-header {
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 111px;
+    letter-spacing: -11px;
+    line-height: 0.8;
+    -webkit-animation: color-change-first-header 3s infinite;
+    -moz-animation: color-change-first-header 3s infinite;
+    -o-animation: color-change-first-header 3s infinite;
+    -ms-animation: color-change-first-header 3s infinite;
+    animation: color-change-first-header 3s infinite;
+}
+
+@-webkit-keyframes color-change-first-header {
+    0% { color: #A2B356; }
+    50% { color: #FF6FBB; }
+    100% { color: #00C3FF; }
+}
+@-moz-keyframes color-change-first-header {
+    0% { color: #A2B356; }
+    50% { color: #FF6FBB; }
+    100% { color: #00C3FF; }
+}
+@-ms-keyframes color-change-first-header {
+    0% { color: #A2B356; }
+    50% { color: #FF6FBB; }
+    100% { color: #00C3FF; }
+}
+@-o-keyframes color-change-first-header {
+    0% { color: #A2B356; }
+    50% { color: #FF6FBB; }
+    100% { color: #00C3FF; }
+}
+@keyframes color-change-first-header {
+    0% { color: #A2B356; }
+    50% { color: #FF6FBB; }
+    100% { color: #00C3FF; }
+}
+
+.second-header {
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 111px;
+    letter-spacing: -11px;
+    line-height: 0.8;
+    -webkit-animation: color-change-second-header 3s infinite;
+    -moz-animation: color-change-second-header 3s infinite;
+    -o-animation: color-change-second-header 3s infinite;
+    -ms-animation: color-change-second-header 3s infinite;
+    animation: color-change-second-header 3s infinite;
+}
+
+@-webkit-keyframes color-change-second-header {
+    0% { color: #A2B356; }
+    50% { color: #00C3FF; }
+    100% { color: #FF6FBB; }
+}
+@-moz-keyframes color-change-second-header {
+    0% { color: #A2B356; }
+    50% { color: #00C3FF; }
+    100% { color: #FF6FBB; }
+}
+@-ms-keyframes color-change-second-header {
+    0% { color: #A2B356; }
+    50% { color: #00C3FF; }
+    100% { color: #FF6FBB; }
+}
+@-o-keyframes color-change-second-header {
+    0% { color: #A2B356; }
+    50% { color: #00C3FF; }
+    100% { color: #FF6FBB; }
+}
+@keyframes color-change-second-header {
+    0% { color: #A2B356; }
+    50% { color: #00C3FF; }
+    100% { color: #FF6FBB; }
+}
+
+.third-container {
+    background-color: #D6BB5F;
+    height: 400px;
+}
+
+.fourth-container {
+    background-color: #A2B356;
+    height: 300px;
+}
